@@ -5,18 +5,6 @@ window.addEventListener('DOMContentLoaded' ,function() {
 
 });
 
-
-(function() {
-
-    
-$('.close-chat').click(function() {
-    const status = $('.chatbox').attr('data-open');
-    toggleChatBox(status === 'on')
-})
-function scrollEnd () {
-    $('.chat-window').animate({ scrollTop: 9999 }, 'slow');
-}
-
 function toggleChatBox(status) {
     $('.close-chat').html(
        status ?
@@ -29,6 +17,19 @@ function toggleChatBox(status) {
     // $('.chat-box')
     scrollEnd()
 }
+
+(function() {
+
+    
+$('.close-chat').click(function() {
+    const status = $('.chatbox').attr('data-open');
+    toggleChatBox(status === 'on')
+})
+function scrollEnd () {
+    $('.chat-window').animate({ scrollTop: 9999 }, 'slow');
+}
+
+
 
     $('.middle .card').each(function() {
         this.addEventListener('click', function(e) {
