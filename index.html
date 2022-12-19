@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math-daily</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c19823cb84.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/input.css" />
+    <link rel="stylesheet" href="./style/menu.css" />
+    <link rel="stylesheet" href="./style/form.css" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/chat.css" />
+    <link rel="stylesheet" href="./style/animation.css" />
+    <link rel="stylesheet" href="./style/loader.css">
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="before-load">
+      <div class="loader">
+        <svg viewBox="0 0 80 80">
+            <circle id="test" cx="40" cy="40" r="32"></circle>
+        </svg>
+      </div>
+
+      
+      </div>
+    </div>
+    <div class="app">
+      <div class="image-preview hidden">
+        <div class="out-preview"></div>
+        <div class="preview">
+          <img src="./assets/math-demo.webp" alt="" />
+        </div>
+      </div>
+      <header>
+        <div class="author">
+          <div class="author-avatar">
+            <img
+              src="./assets/eminem_photo_by_dave_j_hogan_getty_images_entertainment_getty_187596325.jpg"
+              alt=""
+            />
+          </div>
+          <div class="author-name">BUI AN DU</div>
+        </div>
+        <div class="title-post">
+          <p class="line-clamp-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            doloribus asperiores aut esse non ut! Quis inventore ex rem, porro
+            explicabo reprehenderit? Porro inventore magnam sequi rerum sapiente
+            nobis ex.
+          </p>
+        </div>
+
+        <div class="time-post">12-12-2022 :21 pm</div>
+      </header>
+      <main>
+        <div class="time"></div>
+        <div class="middle">
+          <div class="image-gallery">
+            <div
+              class="card"
+              style="background-image: url('./assets/math-demo.webp')"
+            >
+              <!-- <img src="./assets/math-demo.webp" alt="" /> -->
+              <!-- <div class="overlay"><span>Image title</span></div> -->
+            </div>
+
+            
+            <div
+              class="card"
+              style="
+                background-image: url('./assets/igcse-math-co-phai-la-mon-hoc-bat-buoc.jpg');
+              "
+            >
+              <!-- <img src="./assets/igcse-math-co-phai-la-mon-hoc-bat-buoc.jpg" alt="" /> -->
+              <!-- <div class="overlay"><span>Image title</span></div> -->
+            </div>
+            <div
+              class="card"
+              style="
+                background-image: url('./assets/maths-chalkboard_23-2148178220.webp');
+              "
+            >
+              <!-- <img src="./assets/maths-chalkboard_23-2148178220.webp" alt="" /> -->
+              <!-- <div class="overlay"><span>Image title</span></div> -->
+            </div>
+            <div
+              class="card"
+              style="
+                background-image: url('./assets/360_F_472092463_biXCSvYsRVE8S05Ph7LbrxglfDr66MBE.jpg');
+              "
+            >
+              <!-- <img src="./assets/360_F_472092463_biXCSvYsRVE8S05Ph7LbrxglfDr66MBE.jpg" alt="" /> -->
+              <!-- <div class="overlay"><span>Image title</span></div> -->
+            </div>
+            <div
+              class="card"
+              style="background-image: url('./assets/81sihJhBwOL.jpg')"
+            >
+              <!-- <img src="./assets/81sihJhBwOL.jpg" alt="" /> -->
+              <!-- <div class="overlay"><span>Image title</span></div> -->
+            </div>
+            <div
+              class="card"
+              style="
+                background-image: url('./assets/notes-and-formulae-mathematics-1-320.webp');
+              "
+            >
+              <!-- <img src="./assets/notes-and-formulae-mathematics-1-320.webp" alt="" /> -->
+              <!-- <div class="overlay"><span>Image title</span></div> -->
+            </div>
+            <div
+              class="card"
+              style="
+                background-image: url('./assets/notes-and-formulae-mathematics-1-320.webp');
+              "
+            >
+              <!-- <img src="./assets/notes-and-formulae-mathematics-1-320.webp" alt="" /> -->
+              <!-- <div class="overlay"><span>Image title</span></div> -->
+            </div>
+            <div
+              class="card"
+              style="
+                background-image: url('./assets/notes-and-formulae-mathematics-1-320.webp');
+              "
+            >
+              <!-- <img src="./assets/notes-and-formulae-mathematics-1-320.webp" alt="" /> -->
+              <!-- <div class="overlay"><span>Image title</span></div> -->
+            </div>
+            <div
+              class="card"
+              style="
+                background-image: url('./assets/notes-and-formulae-mathematics-1-320.webp');
+              "
+            >
+              <!-- <img src="./assets/notes-and-formulae-mathematics-1-320.webp" alt="" /> -->
+              <!-- <div class="overlay"><span>Image title</span></div> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="features">
+          <div class="join">Tham gia</div>
+          <div class="total-solved">
+            <p>Đã hoàn thành :</p>
+            <p>100</p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <section class="chatbox off" data-open="off">
+          <section class="close-chat">
+            <i class="fa-solid fa-angle-up"></i>
+          </section>
+          <section class="chat-window">
+            <article class="msg-container msg-remote" id="msg-0">
+              <div class="msg-box">
+                <img
+                  class="user-img"
+                  id="user-0"
+                  src="//gravatar.com/avatar/00034587632094500000000000000000?d=retro"
+                />
+                <div class="flr">
+                  <div class="messages">
+                    <p class="msg" id="msg-0">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Praesent varius, neque non tristique tincidunt, mauris
+                      nunc efficitur erat, elementum semper justo odio id nisi.
+                    </p>
+                  </div>
+                  <span class="timestamp"
+                    ><span class="username">Name</span>&bull;<span
+                      class="posttime"
+                      >3 minutes ago</span
+                    ></span
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="msg-container msg-self" id="msg-0">
+              <div class="msg-box">
+                <div class="flr">
+                  <div class="messages">
+                    <p class="msg" id="msg-1">Lorem ipsum dolor sit amet</p>
+                    <p class="msg" id="msg-2">Praesent varius</p>
+                  </div>
+                  <span class="timestamp"
+                    ><span class="username">Name</span>&bull;<span
+                      class="posttime"
+                      >2 minutes ago</span
+                    ></span
+                  >
+                </div>
+                <img
+                  class="user-img"
+                  id="user-0"
+                  src="//gravatar.com/avatar/56234674574535734573000000000001?d=retro"
+                />
+              </div>
+            </article>
+            <article class="msg-container msg-remote" id="msg-0">
+              <div class="msg-box">
+                <img
+                  class="user-img"
+                  id="user-0"
+                  src="//gravatar.com/avatar/002464562345234523523568978962?d=retro"
+                />
+                <div class="flr">
+                  <div class="messages">
+                    <p class="msg" id="msg-0">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                  <span class="timestamp"
+                    ><span class="username">Name</span>&bull;<span
+                      class="posttime"
+                      >1 minute ago</span
+                    ></span
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="msg-container msg-remote" id="msg-0">
+              <div class="msg-box">
+                <img
+                  class="user-img"
+                  id="user-0"
+                  src="//gravatar.com/avatar/00034587632094500000000000000000?d=retro"
+                />
+                <div class="flr">
+                  <div class="messages">
+                    <p class="msg" id="msg-0">Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <span class="timestamp"
+                    ><span class="username">Name</span>&bull;<span
+                      class="posttime"
+                      >Now</span
+                    ></span
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="msg-container msg-self" id="msg-0">
+              <div class="msg-box">
+                <div class="flr">
+                  <div class="messages">
+                    <p class="msg" id="msg-1">Lorem ipsum</p>
+                  </div>
+                  <span class="timestamp"
+                    ><span class="username">Name</span>&bull;<span
+                      class="posttime"
+                      >Now</span
+                    ></span
+                  >
+                </div>
+                <img
+                  class="user-img"
+                  id="user-0"
+                  src="//gravatar.com/avatar/56234674574535734573000000000001?d=retro"
+                />
+              </div>
+            </article>
+          </section>
+        </section>
+
+        <div class="chat-textbox">
+          <div class="chat-featured">
+            <!-- <img src="./assets/media-previously-overlo"oked-MGK-music-due-to-his-antics.webp" alt=""> -->
+            <div class="upload-image">
+              <i class="fa-solid fa-image"></i>
+            </div>
+          </div>
+          <div class="user-comment">
+            <div class="input-container">
+              <input
+                type="text"
+                name="text"
+                id="text"
+                class="message-input"
+                placeholder="Bình luận...."
+                autocomplete="off"
+              />
+              <span class="suggestion-container"></span>
+              <div class="icons-container">
+                <div class="icon tab-key hidden">
+                  <svg>
+                    <use xdivnk:href="#tab-key"></use>
+                  </svg>
+                </div>
+                <div class="icon enter-key hidden">
+                  <svg>
+                    <use xlink:href="#enter-key"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <svg class="icons">
+              <symbol id="tab-key" viewBox="0 0 448 448">
+                <polygon
+                  points="225.813,126.187 302.293,202.667 0,202.667 0,245.333 302.293,245.333 225.813,321.813 256,352 384,224 256,96 
+                                    "
+                />
+                <rect x="405.333" y="96" width="42.667" height="256" />
+              </symbol>
+              <symbol id="enter-key" viewBox="0 0 280.823 280.823">
+                <path
+                  d="m250.734 40.137-90.265-.02v20.059h90.265c5.534 0 10.029 4.515 10.029 10.049v80.216c0 5.534-4.496
+                              10.029-10.029 10.029h-212.34l45.877-45.877-14.182-14.182-70.089 70.088 70.206 70.206
+                              14.182-14.182-45.994-45.994h212.341c16.592 0 30.088-13.497
+                              30.088-30.088v-80.216c0-16.592-13.497-30.088-30.089-30.088z"
+                />
+              </symbol>
+            </svg>
+          </div>
+
+          <div class="user-send_comment">
+            <span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </span>
+            <!-- <img src="./assets/png-transparent-computer-icons-send-miscellaneous-angle-rectangle-thumbnail.png" alt=""> -->
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./app/modal.js"></script>
+    <script src="./app/input/messge.js"></script>
+  </body>
+</html>
